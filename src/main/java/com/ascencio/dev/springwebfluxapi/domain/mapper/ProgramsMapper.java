@@ -17,7 +17,8 @@ public class ProgramsMapper {
                 dto.getResponsible(),
                 dto.getDescription(),
                 dto.getDuration(),
-                dto.getCondition()
+                dto.getCondition(),
+                dto.getLevel()
         );
     }
 
@@ -30,7 +31,8 @@ public class ProgramsMapper {
                 dto.getResponsible(),
                 dto.getDescription(),
                 dto.getCondition(),
-                dto.getDuration()
+                dto.getDuration(),
+                dto.getLevel()
         );
     }
 
@@ -43,7 +45,8 @@ public class ProgramsMapper {
                 model.getResponsible(),
                 model.getDescription(),
                 model.getDuration(),
-                model.getCondition()
+                model.getCondition(),
+                model.getLevel()
         );
     }
 }

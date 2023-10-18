@@ -19,6 +19,7 @@ public class ProgramsResponseDto implements Serializable {
    private String description;
    private Integer duration;
    private String condition;
+   private String level;
 
    public ProgramsResponseDto() {
 

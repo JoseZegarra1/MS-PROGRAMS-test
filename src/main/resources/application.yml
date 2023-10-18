@@ -3,13 +3,14 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:postgresql://containers-us-west-4.railway.app:7666/railway
+    url: r2dbc:postgresql://containers-us-west-12.railway.app:7398/railway
     username: postgres
-    password: CjNa1LivjRBE3AUSPiCB
+    password: guYuOD5jSHl7WCFcoZUu
     pool:
       enabled: true
       initial-size: 1
       max-size: 1
+
 
 logging:
   level:

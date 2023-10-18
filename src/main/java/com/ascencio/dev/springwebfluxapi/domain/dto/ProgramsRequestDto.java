@@ -16,4 +16,5 @@ public class ProgramsRequestDto implements Serializable {
     private String description;
     private String condition;
     private Integer duration;
+    private String level;
 }
